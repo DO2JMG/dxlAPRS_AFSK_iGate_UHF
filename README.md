@@ -38,6 +38,13 @@ Permissions
 ```
   cd ..
 ```
+### Settings  :
+  Change your call and passcode in options.conf
+
+```
+  nano options.conf
+```
+
 ### Run  :
 
 Start
