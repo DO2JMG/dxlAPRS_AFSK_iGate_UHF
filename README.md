@@ -7,11 +7,13 @@ dxlAPRS Internet Gateway
   cd dxlAPRS_AFSK_iGate_UHF
 ```
 
-### Create folders  :
+### Create folders and permissions  :
 
 ```
   mkdir bin
   mkdir fifos
   mkdir pidfiles
 ```
-
+```
+  sudo chmod +x afsk.sh
+```
