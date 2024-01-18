@@ -45,6 +45,11 @@ Permissions
   nano options.conf
 ```
 
+  Change your beacon message in beacon.txt
+```
+  nano beacon.txt
+```
+  
 ### Run  :
 
 Start
