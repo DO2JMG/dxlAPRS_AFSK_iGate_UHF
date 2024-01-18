@@ -1,4 +1,4 @@
-dxlAPRS Internet Gateway
+dxlAPRS Internet Gateway for raspberry pi
 
 ### Unpack  :
 
@@ -17,3 +17,36 @@ dxlAPRS Internet Gateway
 ```
   sudo chmod +x afsk.sh
 ```
+
+### Download dxlAPRS  :
+
+```
+  cd bin
+  wget http://oe5dxl.hamspirit.at:8025/aprs/bin/armv7hf/afskmodem
+  wget http://oe5dxl.hamspirit.at:8025/aprs/bin/armv7hf/udpgate4
+  wget http://oe5dxl.hamspirit.at:8025/aprs/bin/armv7hf/sdrtst
+```
+
+Permissions
+
+```
+  cd bin
+  sudo chmod +x afskmodem
+  sudo chmod +x udpgate4
+  sudo chmod +x sdrtst
+```
+```
+  cd ..
+```
+### Run  :
+
+Start
+
+  ```
+    ./afsk.sh
+  ```
+Stop
+
+  ```
+  ./afsk.sh stop
+  ```
